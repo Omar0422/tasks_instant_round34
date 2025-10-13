@@ -26,7 +26,8 @@ class PostRemoteDataSourceImpl implements PostRemoteDataSource {
     } catch (e) {
       throw ServerException();
     }
-  }
+  }  
+  
 
   @override
   Future<PostModel> getPost(String id) async {
